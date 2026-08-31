@@ -72,65 +72,13 @@ rx_data
 
 After 8 bits are received, rx_valid is asserted.
 
-5. Data Transmission
+5. ## Data Transmission
 
-The transmit data is loaded into the TX shift register and shifted out through MISO.
+The `tx_data` is the data that the SPI Slave needs to send to the master.
 
-tx_data
- ↓
-TX Shift Register
- ↓
-MISO
+First, `tx_data` is loaded into the TX shift register. The data is then sent **one bit at a time through MISO**.
 
-Data is transferred MSB first.
-
-SPI Modes
-Mode	CPOL	CPHA	Clock Idle
-0	0	0	LOW
-1	0	1	LOW
-2	1	0	HIGH
-3	1	1	HIGH
-Project Structure
-RTL-Design-of-SPI-Slave-in-Verilog-HDL/
-│
-├── rtl/
-│   └── spi_slave.v
-│
-├── tb/
-│   ├── tb_spi_slave_mode0.v
-│   ├── tb_spi_slave_mode1.v
-│   ├── tb_spi_slave_mode2.v
-│   └── tb_spi_slave_mode3.v
-│
-└── README.md
-Verification
-
-We created separate Verilog testbenches for all four SPI modes.
-
-Each testbench generates:
-
-System clock
-Reset
-Chip Select
-SPI clock
-MOSI data
-CPOL
-CPHA
-TX data
-
-The output signals such as MISO, rx_data and rx_valid are observed during simulation.
-
-The testbenches also generate a VCD waveform for waveform analysis.
-
-Tools Used
-Verilog HDL – RTL Design
-Icarus Verilog – Simulation
-EDA Playground – Online simulation
-EPWave – Waveform analysis
-GitHub – Project repository
-Outcome
-
-An 8-bit SPI Slave RTL design was developed and tested for SPI Modes 0, 1, 2 and 3, demonstrating SPI signal synchronization, clock-edge detection, serial data transfer, shift registers, and functional verification.
+tx_data → TX Shift Register → MISO → Master
 <img width="1840" height="1012" alt="Screenshot 2026-08-31 235019" src="https://github.com/user-attachments/assets/ff4f1ebe-33b2-4275-9907-e8ab79812ecc" />
 <img width="1814" height="914" alt="image" src="https://github.com/user-attachments/assets/cd355293-ae4e-42e7-aace-1c3a49ef5738" />
 <img width="1857" height="924" alt="image" src="https://github.com/user-attachments/assets/cf59ca91-5eac-49c6-ab5e-b5f5610cb412" />
