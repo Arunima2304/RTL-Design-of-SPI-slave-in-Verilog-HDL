@@ -113,12 +113,13 @@ rx_valid – indicates that the complete data has been received
 The testbench also generates a VCD waveform to observe the SPI signals during simulation.
 
 ### Tools Used
+```text
 Verilog HDL – RTL design
 Icarus Verilog – Simulation
 EDA Playground – Online simulation
 EPWave – Waveform viewing
 GitHub – Source code and documentation
-
+```
 ### Project Structure
 
 ```text
