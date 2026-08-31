@@ -51,7 +51,7 @@ Since `SCLK`, `CS`, and `MOSI` are external signals, they are synchronized with 
 SCLK → Synchronization → Edge Detection
 CS   → Synchronization
 MOSI → Synchronization
-3. SCLK Edge Detection
+### 3. SCLK Edge Detection
 
 The design detects:
 
@@ -60,7 +60,7 @@ Falling Edge : 1 → 0
 
 The correct edge for sampling and shifting is selected according to CPOL and CPHA.
 
-4. Data Reception
+### 4. Data Reception
 
 Data received from MOSI is shifted into the RX shift register.
 
@@ -90,7 +90,7 @@ Mode	CPOL	CPHA	SCLK Idle
 1	0	1	LOW
 2	1	0	HIGH
 3	1	1	HIGH
-## Project Structure
+### Project Structure
 
 ```text
 RTL-Design-of-SPI-Slave-in-Verilog-HDL/
@@ -107,7 +107,7 @@ RTL-Design-of-SPI-Slave-in-Verilog-HDL/
 └── README.md
 ```
 
-## Verification
+### Verification
 
 We created four testbenches, one for each SPI mode.
 
@@ -128,7 +128,7 @@ rx_valid – indicates that the complete data has been received
 
 The testbench also generates a VCD waveform to observe the SPI signals during simulation.
 
-## Tools Used
+### Tools Used
 Verilog HDL – RTL design
 Icarus Verilog – Simulation
 EDA Playground – Online simulation
