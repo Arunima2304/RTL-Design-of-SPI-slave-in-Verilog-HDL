@@ -92,6 +92,7 @@ Mode	CPOL	CPHA	SCLK Idle
 3	1	1	HIGH
 ## Project Structure
 
+```text
 RTL-Design-of-SPI-Slave-in-Verilog-HDL/
 │
 ├── rtl/
@@ -104,6 +105,7 @@ RTL-Design-of-SPI-Slave-in-Verilog-HDL/
 │   └── tb_spi_slave_mode3.v
 │
 └── README.md
+```
 
 ## Verification
 
