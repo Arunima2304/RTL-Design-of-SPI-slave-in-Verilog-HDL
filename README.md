@@ -85,11 +85,13 @@ The data is transmitted MSB first, meaning the most significant bit (D7) is sent
 
 The SPI mode is selected using CPOL and CPHA.
 ```text
-Mode	CPOL	CPHA	SCLK Idle
-0	0	0 LOW
-1	0	1	LOW
-2	1	0	HIGH
-3	1	1	HIGH
+
+| Mode | CPOL | CPHA | SCLK Idle |
+|------|------|------|-----------|
+| 0    | 0    | 0    | LOW       |
+| 1    | 0    | 1    | LOW       |
+| 2    | 1    | 0    | HIGH      |
+| 3    | 1    | 1    | HIGH      |
 ```
 ### 6. Verification
 
