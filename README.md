@@ -132,4 +132,6 @@ Outcome
 
 An 8-bit SPI Slave RTL design was developed and tested for SPI Modes 0, 1, 2 and 3, demonstrating SPI signal synchronization, clock-edge detection, serial data transfer, shift registers, and functional verification.
 <img width="1840" height="1012" alt="Screenshot 2026-08-31 235019" src="https://github.com/user-attachments/assets/ff4f1ebe-33b2-4275-9907-e8ab79812ecc" />
-
+<img width="1814" height="914" alt="image" src="https://github.com/user-attachments/assets/cd355293-ae4e-42e7-aace-1c3a49ef5738" />
+<img width="1857" height="924" alt="image" src="https://github.com/user-attachments/assets/cf59ca91-5eac-49c6-ab5e-b5f5610cb412" />
+<img width="1828" height="925" alt="image" src="https://github.com/user-attachments/assets/6378cfd9-78ce-46d8-9829-ccaad0f9fe5e" />
