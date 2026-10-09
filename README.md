@@ -138,6 +138,21 @@ RTL-Design-of-SPI-Slave-in-Verilog-HDL/
 │
 └── README.md
 ```
+
+
+## 👥 Contributors
+
+This project is developed collaboratively by:
+
+* **[Arunima Chakraborty](https://github.com/Arunima2304)**
+* **[andromeda_006](https://github.com/andromeda_006)**
+* **[ddristi](https://github.com/ddristi)**
+* **[disha-1004](https://github.com/disha-1004)**
+* **[Arushi Amit Shesh](https://github.com/)**
+* **[Ramya-428](https://github.com/Ramya-428)**
+
+Thanks to everyone for their contributions to this project! ❤️
+
 <img width="1840" height="1012" alt="Screenshot 2026-08-31 235019" src="https://github.com/user-attachments/assets/ff4f1ebe-33b2-4275-9907-e8ab79812ecc" />
 <img width="1814" height="914" alt="image" src="https://github.com/user-attachments/assets/cd355293-ae4e-42e7-aace-1c3a49ef5738" />
 <img width="1857" height="924" alt="image" src="https://github.com/user-attachments/assets/cf59ca91-5eac-49c6-ab5e-b5f5610cb412" />
